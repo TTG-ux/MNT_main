@@ -1,4 +1,6 @@
-package a_introdaction_dz;
+
+package AIntrodactionDz;
+
 /*
  * Java Developer Kit (JDK) подаёт коммантду компелятору на запуск приложения introdaction_first
  * Компелятор преобразует спецификацию кода Java на байт-код
