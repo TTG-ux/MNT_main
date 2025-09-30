@@ -1,5 +1,9 @@
 public class Main
 {
+
+    /*
+     * 
+     */
     // Реализация класса Person
     public static void main(String[] args)
     {
