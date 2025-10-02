@@ -6,28 +6,14 @@ import java.io.UncheckedIOException;
 public class SwitchYieldNoution {
 
     public static void main(String[] args) {
-        // // Classik
-        // int day = 2;
+        Exam ternaryBool = Exam.TRUE;
 
-        // switch (day) {
-        //     case 1:
-        //         System.out.println("1");
-        //         break;
-        //     case 2:
-        //         System.out.println("2");
-        //         break;
-
-        //     default:
-        //         System.out.println("lol");
-        // }
-
-        Exam exm = Exam.FILE_NOT_FOUND;
-
-        getYieldQuery(exm);
+        getYieldQuery(ternaryBool);
     }
 
-    public static void getYieldQuery(Exam exm) {
-        boolean result = switch (exm){
+    public static void getYieldQuery(Exam ternaryBool) {
+        boolean result = switch (ternaryBool){
+            //Пример блока, он необходим для использования более одной строки кода в case
             case TRUE -> {
                 System.out.println("Bool true");
                 yield true;
@@ -53,4 +39,4 @@ enum Exam {
     TRUE,
     FALSE,
     FILE_NOT_FOUND
-}
+};
