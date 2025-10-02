@@ -1,4 +1,4 @@
-package SWITCHYIELD;
+package SWITCHYIELDAndClassicSwitch;
 
 import java.io.FileNotFoundException;
 import java.io.UncheckedIOException;

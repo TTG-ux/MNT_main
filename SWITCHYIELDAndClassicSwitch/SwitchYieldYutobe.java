@@ -1,4 +1,4 @@
-package SWITCHYIELD;
+package SWITCHYIELDAndClassicSwitch;
 
 public class SwitchYieldYutobe {
 
