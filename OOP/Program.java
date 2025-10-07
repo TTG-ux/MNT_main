@@ -30,34 +30,68 @@ package OOP;
 //     int age;        // Возраст
 // }
 
+// class Program {
+//     public static void main(String[] args) {
+//         // Создаём объект Person
+//         Person tom = new Person();
+
+//         // Устанавливаем значения полей класса
+//         tom.name = "Tom";
+//         tom.age = 41;
+
+//         // Вызываем метод print
+//         tom.print();
+
+//         // Пример с многократным вызовом метода
+//         tom.name = "Tommy";
+//         tom.age = 14;
+//         tom.print();
+//     }
+// }
+
+// class Person {
+
+//     String name;
+//     int age;
+
+//     // Метод print класса Person 
+//     void print() {
+//         System.out.printf("Name: %s \tAge: %d\n", name, age);
+//     }
+// }   
+
+
+
+// Вызов метода в других методах класса
+
 class Program {
     public static void main(String[] args) {
-        // Создаём объект Person
+        
         Person tom = new Person();
 
-        // Устанавливаем значения полей класса
         tom.name = "Tom";
-        tom.age = 41;
+        tom.age = 16;
 
-        // Вызываем метод print
-        tom.print();
-
-        // Пример с многократным вызовом метода
-        tom.name = "Tommy";
-        tom.age = 14;
         tom.print();
     }
 }
 
-class Person {
 
+class Person {
     String name;
     int age;
 
-    // Метод print класса Person 
-    void print() {
-        System.out.printf("Name: %s \tAge: %d\n", name, age);
+    void printName() {
+        System.out.printf("Name: %s\n", name);
     }
-}   
 
+    void printAge() {
+        System.out.printf("Age: %d\n", age);
+    }
+
+    void print() {
+        printName();
+        printAge();
+    }
+}
 
