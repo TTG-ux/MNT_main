@@ -1,6 +1,6 @@
 package OOP;
 
-public class PeogramMethodOverloading {
+public class ProgramMethodOverloading {
  
     public static void main(String[] args) {
 
