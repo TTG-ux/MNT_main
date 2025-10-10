@@ -86,7 +86,6 @@ package OOP;
 
 /* 
  * Добавляем ключевое слово this - ссылка на текущий объект
- * 
 */
 // class ProgramConstructors {
 
