@@ -15,11 +15,16 @@ public class ProgramCompactMethod {
      * Лаунчер вызывает этот конструктор,а затем у созданного объекта класса вызывает выбранный метод main.
      * Если же класс не имеет конструктора без параметров, то лаунчер сообщает об ошибке и завершает работу.
      */
-    void main(String[] args) {
-        System.out.println("Hello, world!");
+    // void main(String[] args) {
+    //     System.out.println("Hello, world!");
+    // }
+
+
+    String sayHellow() {
+        return "Hello, world";
     }
 
     void main() {
-        System.out.println("Hello, world");
+        System.out.println(sayHellow());
     }
 }
