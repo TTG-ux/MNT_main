@@ -25,11 +25,8 @@ public class MinStack {
         minStack.pop();                 // [5,10]
         minStack.pop();                 // [5]
         minStack.push(2);       // [5]
-        out.println(minStack.min());    // Выведет мин элемент 2 [5,2]
+        out.println(minStack.min());    // Выведет мин элемент 2 [5, 2]
         minStack.pop();                 // [2]
-
-
-
     }
     
     private final Deque<Integer> stack = new ArrayDeque<>();        // Основной стек
